@@ -5,10 +5,10 @@ settings:
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
-  allmonitorsOperational: 'Svi Sistemi su Operativni'
-  notAllmonitorsOperational: 'Nisu Svi Sistemi Operativni'
+  allmonitorsOperational: 'Svi sistemi su operativni'
+  notAllmonitorsOperational: 'Nisu svi sistemi operativni'
   monitorLabelOperational: 'Operativno'
-  monitorLabelNotOperational: 'Nije Operativno'
+  monitorLabelNotOperational: 'Nije operativno'
   monitorLabelNoData: 'Nema podataka'
   dayInHistogramNoData: 'Nema podataka'
   dayInHistogramOperational: 'Sve u redu'
