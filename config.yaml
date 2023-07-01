@@ -1,28 +1,29 @@
 settings:
-  title: 'Statusna Stranica'
-  url: 'https://status.cuvarko.com' # used for Slack messages
+  title: "Statusna Stranica"
+  url: "https://status.cuvarko.com" # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
-  allmonitorsOperational: 'Svi sistemi su operativni'
-  notAllmonitorsOperational: 'Nisu svi sistemi operativni'
-  monitorLabelOperational: 'Operativno'
-  monitorLabelNotOperational: 'Nije operativno'
-  monitorLabelNoData: 'Nema podataka'
-  dayInHistogramNoData: 'Nema podataka'
-  dayInHistogramOperational: 'Sve u redu'
-  dayInHistogramNotOperational: ' incident(i)' # xx incident(i) zabeleženi
+  allmonitorsOperational: "Svi sistemi su operativni"
+  notAllmonitorsOperational: "Nisu svi sistemi operativni"
+  monitorLabelOperational: "Operativno"
+  monitorLabelNotOperational: "Nije operativno"
+  monitorLabelNoData: "Nema podataka"
+  dayInHistogramNoData: "Nema podataka"
+  dayInHistogramOperational: "Sve u redu"
+  dayInHistogramNotOperational: " incident(i)" # xx incident(i) zabeleženi
 
 monitors:
   - id: cuvarko-com # unique identifier
     name: cuvarko.com
     # description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://cuvarko.com/' # URL to fetch
+    url: "https://cuvarko.com/" # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
+
 
   # - id: www-cloudflare-com
   #   name: www.cloudflare.com
