@@ -2,7 +2,7 @@ settings:
   title: "Statusna Stranica"
   url: "https://status.cuvarko.com" # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 90 # number of days you want to display in histogram
+  daysInHistogram: 60 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: "Svi sistemi su operativni"
